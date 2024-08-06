@@ -1,0 +1,36 @@
+name: energiza
+description: "Projeto de APP II QI."
+publish_to: 'Nicolas'
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  sqflite: ^2.0.0+4
+  path: ^1.8.0
+
+  cupertino_icons: ^1.0.6
+  charts_flutter: ^0.12.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  fonts:
+    - family: AbhayaLibre
+      fonts:
+        - asset: fonts/AbhayaLibre-Medium.ttf
+
+  assets:
+    - assets/solar_panel.png
+    - assets/pngwing_4.png
+    - assets/pngwing_5.png
+    - assets/
+
